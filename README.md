@@ -17,3 +17,5 @@ We will be exploring the below mentioned tools/technologies
 - Once you're in, start a new project and create a VM.
     - Go to create new project and give it a suitable name. (The name cannot be changed later)
     - Under the navigation menu, select Compute Engine -> Virtual Instances and select your project under the dropdown.
+    - Enable the Compute Engine API. 
+    - I configured the VM with the following settings : Region: us-east4, Zone: c, OS: Ubuntu 20.04 LTS, Balanced persistent disk, 30 GB and rest are the default settings
