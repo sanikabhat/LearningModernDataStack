@@ -58,4 +58,14 @@ We will be exploring the below mentioned tools/technologies
 - Windows will log you out after this. Accept the terms and conditions when prompted and you are all set
 - Basic steps of docker - Clone a repository that will have the docker image, Build that image, Run your container
 - Sign up on Docker hub if you haven't already. https://hub.docker.com/signup and sign in.
-- 
+
+PS: You will require git bash for this. I had it installed already.
+
+# Section 3 - Start the docker container
+
+- Run the following commands in git bash
+`git clone https://github.com/josephmachado/online_store.git`
+`cd online_store`
+`make up`
+`docker ps`
+(If the make up command does not run. Run `cat Makefile` in the online_store folder and copy the command for up and run it outside. Mine was `docker compose up --build -d`)
