@@ -54,5 +54,8 @@ We will be exploring the below mentioned tools/technologies
 # Section 2 - Installing and Setting up Docker and Docker Compose
 
 - Go to https://docs.docker.com/engine/install/ and install the docker version that suits your system.
-- If you are installing Docker Desktop on Windows, make sure to select the 'Install required WSL2 components' when prompted and follow the intallation wizard. Here I intsalled the Docker Desktop 4.6.1 version. You must log out of windows for this after the installation process is done.
+- If you are installing Docker Desktop on Windows, make sure to select the 'Install required WSL2 components' when prompted and follow the intallation wizard. Here I intsalled the Docker Desktop 4.6.1 version.
+- Windows will log you out after this. Accept the terms and conditions when prompted and you are all set
+- Basic steps of docker - Clone a repository that will have the docker image, Build that image, Run your container
+- Sign up on Docker hub if you haven't already. https://hub.docker.com/signup and sign in.
 - 
