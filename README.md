@@ -64,8 +64,8 @@ PS: You will require git bash for this. I had it installed already.
 # Section 3 - Start the docker container
 
 - Run the following commands in git bash
-`git clone https://github.com/josephmachado/online_store.git`
-`cd online_store`
-`make up`
-`docker ps`
+		`git clone https://github.com/josephmachado/online_store.git`
+		`cd online_store`
+		`make up`
+		`docker ps`
 (If the make up command does not run. Run `cat Makefile` in the online_store folder and copy the command for up and run it outside. Mine was `docker compose up --build -d`)
